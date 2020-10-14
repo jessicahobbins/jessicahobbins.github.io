@@ -14,7 +14,6 @@
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 /* Change color on hover */
 .topnav a:hover {
@@ -22,34 +21,28 @@
   color: black;
 }
 
-
 /* Style the content /*
 /* Adapted from: https://www.w3schools.com/css/css_font.asp */
-
 body {
-  background-color: #ffffff;
+  background-color: white;
 }
-
 h1 {
-  color: black;
-  margin-left: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 35px;
+  color: black;
 }
-
 p {
-  color: black;
-  margin-left: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  color: black;
 }
 
 /* Style the footer */
+/* Adapted from https://www.w3schools.com/tags/tag_footer.asp */
 .footer {
+  text-align: center;
+  padding: 3px;
+  color: #ffffff;
   background-color: #2d812d;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 10px;
-  color: white;
+  font-size: 15px;
   font-weight: bold;
-  padding: 5px;
 }
