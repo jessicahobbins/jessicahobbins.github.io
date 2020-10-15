@@ -3,7 +3,7 @@
 .topnav {
   overflow: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   background-color: #2d812d;
 }
 /* Style the topnav links */
@@ -26,23 +26,37 @@
 body {
   background-color: white;
 }
+
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  font-size: 20;
   color: black;
 }
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px;
+  font-size: 15;
+  color: black;
+}
+
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
+  font-size: 18px;
 }
+
 
 /* Style the footer */
 /* Adapted from https://www.w3schools.com/tags/tag_footer.asp */
 .footer {
   text-align: center;
-  padding: 3px;
+  padding: 2px;
   color: #ffffff;
   background-color: #2d812d;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
+
