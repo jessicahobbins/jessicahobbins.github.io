@@ -27,26 +27,43 @@ body {
   background-color: white;
 }
 
+.columns {
+  column-count: 2;
+}
+
+.center {
+  /* width: 600px;
+  height: 450px;
+  border: 15px #2d812d;
+  border-style: solid; */
+  text-align: center;
+ 
+}
+
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
   font-size: 20;
-  color: black;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 2px;
+  padding: 5px;
   font-size: 15;
   color: black;
+  text-align: center;
 }
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
   font-size: 18px;
+  text-align:center;
+  font-weight: bold;
+  padding-left: 250px;
+  padding-right: 250px;
 }
-
 
 /* Style the footer */
 /* Adapted from https://www.w3schools.com/tags/tag_footer.asp */
@@ -59,4 +76,3 @@ p {
   font-size: 18px;
   font-weight: bold;
 }
-
