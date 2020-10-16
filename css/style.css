@@ -48,7 +48,6 @@ div.desc {
   padding: 15px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: bold;
 }
 
 /* Centering div */
@@ -64,7 +63,7 @@ div.desc {
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
-  font-size: 20;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -72,7 +71,7 @@ h1 {
 h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
-  font-size: 15;
+  font-size: 25px;
   color: black;
   text-align: center;
 }
@@ -92,7 +91,6 @@ p {
 /* Adapted from https://www.w3schools.com/tags/tag_footer.asp */
 .footer {
   text-align: center;
-  margin=top: 15px;
   padding: 15px;
   color: #ffffff;
   background-color: #2d812d;
@@ -101,4 +99,3 @@ p {
   font-weight: bold;
   clear: both;
 }
-
