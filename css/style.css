@@ -1,4 +1,5 @@
-/* Style the top navigation bar */
+/* ITEM #1 */
+/* Styling the top navigation bar */
 /* Adapted from: https://www.w3schools.com/css/css_navbar.asp */
 .topnav {
   overflow: hidden;
@@ -6,7 +7,7 @@
   font-size: 18px;
   background-color: #2d812d;
 }
-/* Style the topnav links */
+/* Styling the topnav links */
 .topnav a {
   float: left;
   display: block;
@@ -15,15 +16,16 @@
   text-align: center;
   padding: 14px 16px;
 }
-/* Change color on hover */
+/* Change colour on hover */
 .topnav a:hover {
   background-color: #54c454;
   color: black;
 }
 
-/* Inputting a gallery */
+/* ITEM #3 */
+/* Inserting gallery */
 /* Adapted from: https://www.w3schools.com/css/css_image_gallery.asp */
-
+/* Style gallery boxes */
 div.gallery {
   margin: 20px;
   border: 3px solid #2d812d;
@@ -32,16 +34,16 @@ div.gallery {
   float: left;
   margin-bottom: 20px;
 }
-
+/* Change colour on hover */
 div.gallery:hover {
   border: 3px solid #54c454;
 }
-
+/* Styling images */
 div.gallery img {
   width: 100%;
   height: auto;
 }
-
+/* Styling description box */
 div.desc {
   padding: 15px;
   text-align: center;
@@ -49,6 +51,7 @@ div.desc {
   font-style: bold;
 }
 
+/* Centering div */
 .center {
   /* width: 600px;
   height: 450px;
@@ -57,7 +60,7 @@ div.desc {
   text-align: center;
 }
 
-
+/* Styling header1 */
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
@@ -65,6 +68,7 @@ h1 {
   text-align: center;
 }
 
+/* Stying header2 */
 h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 5px;
@@ -73,6 +77,7 @@ h2 {
   text-align: center;
 }
 
+/* Styling paragraph */
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
@@ -83,7 +88,7 @@ p {
   padding-right: 150px;
 }
 
-/* Style the footer */
+/* Styling the footer */
 /* Adapted from https://www.w3schools.com/tags/tag_footer.asp */
 .footer {
   text-align: center;
